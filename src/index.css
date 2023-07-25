@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-con{
+    @apply max-w-[1170px] mx-auto ;
+}
+
+.primary-bg-color{
+    @apply bg-[#19212e]
+}
+.main-text-color{
+    @apply text-[#49c3f9]
+}
+.secondary-bg-color{
+    @apply bg-[#49c3f9]
+}
