@@ -15,3 +15,6 @@
 .secondary-bg-color{
     @apply bg-[#49c3f9]
 }
+.gradient-bg{
+    @apply bg-gradient-to-r from-[#2ca5da] to-[#238ab7];
+}

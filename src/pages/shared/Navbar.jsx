@@ -9,9 +9,9 @@ const Navbar = () => {
     return (
         <div className="primary-bg-color z-30">
             <div className="my-con">
-                <div className={`flex flex-row-reverse md:flex-row pl-2 md:pl-0 pr-0 md:pr-6 lg:pr-0 gap-x-6 items-center justify-between lg:justify-normal duration-500 ${open ? "mb-[231px]" : "mb-0"}`}>
+                <div className={`flex flex-row-reverse md:flex-row pl-2 md:pl-12 lg:pl-0 pr-0 md:pr-6 lg:pr-0 gap-x-6 items-center justify-between md:justify-normal duration-500 ${open ? "mb-[231px]" : "mb-0"}`}>
                     <div
-                        className="flex  justify-between items-center px-6 sm:px-4 lg:px-6 bg-gradient-to-r from-[#2da8de] to-[#238ab7] gap-x-20 leading-[50px] font-semibold ">
+                        className="flex  justify-between items-center px-6 sm:px-4 lg:px-6 gradient-bg md:gap-x-8 gap-x-20 leading-[50px] font-semibold ">
                         <h2 className="text-white"> All Categories </h2>
                         <FaBars className="text-white hidden sm:block"></FaBars>
                     </div>
