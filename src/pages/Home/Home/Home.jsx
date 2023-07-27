@@ -1,3 +1,5 @@
+import Footer from "../../shared/Footer";
+import Category from "../Category/Category";
 import HeroSection from "../HeroSection/HeroSection";
 import Services from "../Services/Services";
 
@@ -8,6 +10,8 @@ const Home = () => {
         <>
          <HeroSection></HeroSection>
          <Services></Services>
+         <Category></Category>
+         <Footer></Footer>
         </>
     );
 };
