@@ -2,6 +2,7 @@ import Footer from "../../shared/Footer";
 import Category from "../Category/Category";
 import Features from "../Features/Features";
 import HeroSection from "../HeroSection/HeroSection";
+import NewProducts from "../NewProducts/NewProducts";
 import Services from "../Services/Services";
 
 
@@ -13,6 +14,7 @@ const Home = () => {
          <Services></Services>
          <Category></Category>
          <Features></Features>
+         <NewProducts></NewProducts>
          <Footer></Footer>
         </>
     );
